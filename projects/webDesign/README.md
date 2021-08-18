@@ -1,5 +1,5 @@
 # Web Design
-Made with plain HTML5 and CSS3.
+Made with plain HTML5 and CSS3. And mainly Bootstrap.
 ## Summary
 I tried to to do these projects as the instructions said, "functionally similar".
 That said, the projects are not nice to the eye but do pass all the tests and they are more than functional.
