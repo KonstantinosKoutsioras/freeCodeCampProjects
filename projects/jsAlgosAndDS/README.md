@@ -2,17 +2,17 @@
 This folder contains the projects which are needed to complete the certification for FreeCodeCamp's said lecture.
 
 ## Summary
-This wasn't my first time learning JS but -God- I felt like I learned some things for the first time. Coming from a C/C++ background, I had a very hard time grasping around the methods concerning arrays and strings, which this course does a*pretty*good job at teaching you most of them. Below I'll go in detail in what you should expect in each one of the projects. Mind you, I'll be listing them the order they are in the course and not on GitHub(If someone knows how to change the order, please show me. I can't be bothered.). Overall, a good experience. 
+This wasn't my first time learning JS but -God- I felt like I learned some things for the first time. Coming from a C/C++ background, I had a very hard time grasping around the methods concerning arrays and strings, which this course does a *pretty* good job at teaching you most of them. Below I'll go in detail in what you should expect in each one of the projects. Mind you, I'll be listing them the order they are in the course and not on GitHub(If someone knows how to change the order, please show me. I can't be bothered.). Overall, a good experience. 
 
 ## JS? Never heard of 'em
 Further comments are provided in the code, but I myself am not convinced that the way I write comments is the most understandable yet. Nevertheless, here you go.
 
 ### Palindrome Checker
-This algorithm is pretty straightforward, given you know what a palindrome is. Palindrome is a series of characters that are read the same way normal or reversed(most times not accounting spaces or whole words). With that out of the way, the characters pertaining this algorithm are numbers and lowercased letters so it's not that hard to grasp the concept. With a simple RegEx pattern, toLowerCase() and some more regex magic we get a**very**basic version of a palindrome algorithm.
+This algorithm is pretty straightforward, given you know what a palindrome is. Palindrome is a series of characters that are read the same way normal or reversed(most times not accounting spaces or whole words). With that out of the way, the characters pertaining this algorithm are numbers and lowercased letters so it's not that hard to grasp the concept. With a simple RegEx pattern, toLowerCase() and some more regex magic we get a **very** basic version of a palindrome algorithm.
 
 ### Roman Numeral Converter
 I thought I knew Roman Numerals before this challenge. Turns out I didn't but I do know. 
-Anyway, the code starts with initiating an object containing the patterns you would need to convert an*integer*number(Pretty sure Romans didn't know what a float number was) in the decimal system. We get rid of the negative cases and 0(zero didn't have its own numeral) and then we initialize an array in which we'll push each value. 
+Anyway, the code starts with initiating an object containing the patterns you would need to convert an *integer* number(Pretty sure Romans didn't know what a float number was) in the decimal system. We get rid of the negative cases and 0(zero didn't have its own numeral) and then we initialize an array in which we'll push each value. 
 The basic concept is that we isolate each digit of the number and we need a way to recognize if it's in the tens, hundreds, thousands or just unit. We start by splitting the number argument given to us to its individual digits and then implementing an incrementor which each time a loop is completed it is multiplied by 10. In each loop we parse our number to an integer as to get rid of the digits past the floating point(really fancy stuff). Then we look for the specified property in our object and push its value to the array, which is then returned as a string after join()ing it. [Read More About Roman Numerals.](https://www.mathsisfun.com/roman-numerals.html)
 
 ### Caesar's Cipher(ROT13)
